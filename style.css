@@ -1,0 +1,37 @@
+span {
+    color: red;
+}
+
+.text {
+    text-align: left;
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 7vh;
+    line-height: 110%;
+}
+
+.text1 {
+    margin-top: 40px;
+}
+
+.text2 {
+    color: white;
+    background-color: green;
+}
+
+.text3 {
+    padding-left: 50px;
+    color: white;
+    background-color: green;
+    line-height: 800%;
+}
+
+.text4 {
+    padding-left: 30px;
+}
+
+.line1 {
+    border: 2px solid black;
+    font-weight: 900;
+}
