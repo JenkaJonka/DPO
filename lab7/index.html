@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="canvas">
+          <div class="description">
+            <h1 class="title_desc">Игра: угадай число</h1>
+            <p class="title2_desc">
+              Компьютер загадал число от 1 до 10. Ваша задача угадать его за 5 попыток!
+            </p>
+          </div>
+          <div class="playing_field">
+            <label for="field_input" class="filed_label">Ваше число: </label>
+            <input type="text" class="field_input" id="f_input"/>
+            <button class="field_btn" id="f_btn">Проверить</button>
+          </div>
+            <div class="result__count">
+              <span class="result_label">Число попыток:</span>
+              <span class="result_count_out"></span>
+            </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
