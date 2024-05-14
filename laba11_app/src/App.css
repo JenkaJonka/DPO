@@ -1,0 +1,77 @@
+.pizza_img {
+  width: 300px;
+  border-radius: 10%;
+
+}
+
+.card {
+  height: 30%;
+  width: 300px;
+  border-color: black;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 200px;
+  border: 2px solid black;
+  border-radius: 10px; 
+  font-family: sans-serif;
+}
+
+.text_form {
+  padding-left: 30px;
+}
+
+.diameter {
+  height: 30px;
+  width: 100px;;
+}
+
+.pizza_title {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.pizza_text {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.pizza_price {
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 25px;
+  height: 25px;
+}
+.btn, .counter {
+  border: 1px solid black;
+}
+
+
+
+.counter {
+  width: 50px;
+  text-align: center;
+  height: 23px;
+  font-size: 18px;
+}
+
+.btn_basket {
+  margin-left: 5px;
+  height: 25px;
+  width: 50px;
+  background-color: rgb(69, 243, 69);
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 30px;
+  justify-content: left;
+}
